@@ -1,0 +1,19 @@
+
+header{
+
+text-align: center;
+background: #2E94CC;
+
+}
+p{
+    text-align:justify;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.sites{
+    width: 200px;
+    height: auto;
+}
+iframe{
+    text-align: center;
+}
