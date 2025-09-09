@@ -1,93 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>HTML & CSS Basics</h1>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protótipo Simples - Comunidade Front-End</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Comunidade Front-End</h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#conheca-o-curso">Conheça o curso</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#empresas-parceiras">Empresas parceiras</a></li>
+                <li><a href="#ongs-e-comunidade">ONG's e Comunidade</a></li>
+            </ul>
+        </nav>
     </header>
-    <section>
-      <div class="texto1">
-        <p>by Ivan Lourenço Gomes | 5 min read</p>
-        <h2>Getting started with HTML & CSS</h2>
-        <p>SHARE THIS POST</p>
-      </div>
-    <div class="sites"></div>
-      <a href="https://www.facebook.com" target="_blank">
-        <img src="facebook.png" alt="facebook" />
-      </a>
-      <a href="https://www.linkedin.com" target="_blank">
-        <img src="linkedin.png" alt="linkedin" />
-      </a>
-        <div class="imagemNormal"></div>
-      <br>
-      <img src="img1.png" alt="imagem" />
-    </div>
-      <div class="texto2">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna
-          nunc, pretium in hendrerit ut, fermentum eu mauris. Sed venenatis
-          sapien magna, nec sodales odio porttitor.
-        </p>
-        <p>
-          Curae; Integer aliquam ligula ac odio placerat, eget auctor urna
-          consequat. Nullam aliquet sapien nec nibh mattis consequat.
-          Pellentesque viverra vulputate eleifend. Pellentesque habitant morbi
-          tristique senectus et netus et malesuada fames ac turpis.
-        </p>
-        <h3>NULLAM ULTRICIES VIVERRA</h3>
-        <p>
-          Curae; Integer aliquam ligula ac odio placerat, eget auctor urna
-          consequat. Nullam aliquet sapien nec nibh mattis consequat.
-          Pellentesque viverra vulputate eleifend. Pellentesque habitant morbi
-          tristique senectus et netus et malesuada fames ac turpis.
-        </p>
-        <ol>
-          <li>Mauris sem, ut sed</li>
-          <li>Donec magna nunc</li>
-          <li>Placerat eget auctor</li>
-        </ol>
-        <p>
-          Nam ultrices ex fringilla ex pharetra finibus. Vestibulum non
-          vestibulum augue. Mauris finibus ex eget erat pretium, mattis
-          tristique est gravida. Aenean non sapien sed purus blandit dignissim
-          lacinia id leo. Sed vel orci euismod, accumsan nibh sit amet, suscipit
-          elit. Maecenas dictum fermentum mauris in convallis.
-        </p>
-        <div style="text-align: center">
-          <iframe
-            width="680"
-            height="333"
-            style="margin: 20px 0"
-            src="https://www.youtube.com/embed/vY2xUc4TVmY"
-            title="HTML Tutorial For Beginners"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+
+    <main class="container">
+        <div class="hero">
+            <img src="comunidade.jpg" alt="Imagem de uma comunidade de desenvolvedores" class="hero__image">
+            <div class="hero__content">
+                <h2>Bem-vindo à Nossa Comunidade</h2>
+                <p>Aqui você encontra inspiração e colaboração para projetos front-end. Junte-se a nós e construa o futuro da web!</p>
+            </div>
         </div>
-        <h4>RELATED POSTS</h4>
-        <p>
-            <a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw">
-            HTML & CSS Full Course for free 🌎
-            </a>
-        </p>
-        <p>
-            <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
-            HTML & CSS Full Course - Beginner to Pro
-            </a>
-        </p>
-        <p>
-            <a href="https://www.youtube.com/watch?v=qz0aGYrrlhU">
-            HTML Tutorial for Beginners: HTML Crash Course
-            </a>
-        </p>
-      </div>
-    </section>
-  </body>
+    </main>
+
+    <footer class="footer">
+        <img src="logo-unifan.png" alt="Logo da Unifan" class="hero__image" id="unifan-logo-footer">
+        <p>&copy; 2025 Fernando Marques Queiroz. Todos os direitos reservados.</p>
+    </footer>
+</body>
 </html>
